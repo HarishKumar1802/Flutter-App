@@ -29,11 +29,23 @@ class MainScreen extends StatelessWidget {
         Padding(
           padding: const EdgeInsets.all(20.0),
           child: SizedBox(
-            child: ElevatedButton(
-              onPressed: () {
-                // Button press action here
-              },
-              child: const Text('Get Started'),
+            child: Container(
+              width: 200,
+              decoration: BoxDecoration(
+                color: Colors.yellow,
+                borderRadius: BorderRadius.circular(8.0),
+              ),
+              child: TextButton(
+                onPressed: () {
+                  // Button press action here
+                },
+                child: const Text(
+                  'Get Started',
+                  style: TextStyle(
+                    color: Colors.white,
+                  ),
+                ),
+              ),
             ),
           ),
         ),
