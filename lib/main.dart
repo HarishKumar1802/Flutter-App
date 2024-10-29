@@ -15,9 +15,6 @@ void main() {
                 ),
               ),
             ),
-            Container(
-              color: Colors.black.withOpacity(0.3),
-            ),
             const MainScreen(),
           ],
         ),
